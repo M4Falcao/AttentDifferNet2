@@ -1,0 +1,22 @@
+# Versões usadas nos experimentos (Python 3.10).
+# Para GPU, instale torch/torchvision pelo índice da sua versão de CUDA, por exemplo:
+#   pip install torch==2.5.1 torchvision==0.20.1 --index-url https://download.pytorch.org/whl/cu121
+torch==2.5.1
+torchvision==0.20.1
+numpy==2.2.6
+scipy==1.15.3
+scikit-learn==1.7.2
+scikit-image==0.25.2
+Pillow==12.1.1
+tqdm==4.67.3
+matplotlib==3.10.8
+fightingcv-attention==1.0.0
+
+# Testes
+pytest
+
+# Opcionais: notebook de avaliação e MLflow (config.use_mlflow)
+pandas==2.3.3
+openpyxl==3.1.5
+ipykernel
+mlflow
